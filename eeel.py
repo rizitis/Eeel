@@ -338,7 +338,7 @@ class AdditionalSection(QWidget):
             layout.addWidget(button)
 
         example_image = QLabel()
-        example_pixmap = QPixmap("/usr/share/pixmaps/eeel/icons/electric-eel.png")
+        example_pixmap = QPixmap("/usr/share/pixmaps/eeel/icons/electric-eeel.png")
         example_image.setPixmap(example_pixmap.scaled(100, 100, Qt.KeepAspectRatio))
         example_image.setAlignment(Qt.AlignCenter)
         layout.addWidget(example_image)
@@ -363,7 +363,7 @@ class MainWindow(QMainWindow):
 
         # Setup the system tray icon
         self.tray_icon = QSystemTrayIcon(self)
-        tray_icon_path = '/usr/share/icons/hicolor/48x48/apps/eeel.png' # 3 hours lost for this...
+        tray_icon_path = '/usr/share/icons/hicolor/48x48/apps/eeeel.png' # 3 hours lost for this...
         self.tray_icon.setIcon(QIcon(tray_icon_path))
 
         # Add a context menu for the tray icon
@@ -434,7 +434,7 @@ def main():
     app = QApplication(sys.argv)
 
      # Set the global application icon
-    app.setWindowIcon(QIcon('/usr/share/icons/hicolor/48x48/apps/eeel.png'))
+    app.setWindowIcon(QIcon('/usr/share/icons/hicolor/48x48/apps/eeeel.png'))
 
 
     # Get the environment variable, defaulting to 'sbo'
