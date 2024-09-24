@@ -13,8 +13,8 @@ You can find a SlackBuild [here](https://github.com/rizitis/One4All_SlackBuild/t
 ### Setup
 By default app is ready and foccus for Slackware-stable and [SlackBuilds.org](https://github.com/SlackBuildsOrg/slackbuilds.git).<br>
 If you are in Slackware-current and your *slpkg* `repositories.toml` has [ponce](https://github.com/Ponce/slackbuilds) = true , then:
-<br>open with your text editor `/etc/eeel/eeel.env` and un-comment `# SLAKCBUILDS_REPO=ponce`.<br>
-It should be like this `SLAKCBUILDS_REPO=ponce`. <br>
+<br>open with your text editor `/etc/eeel/eeel.env` and un-comment `# SLAKCBUILDS_REPO=ponce`<br>
+It should be like this `SLAKCBUILDS_REPO=ponce` <br>
 Thats all.
 
 
