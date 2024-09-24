@@ -363,7 +363,7 @@ class MainWindow(QMainWindow):
 
         # Setup the system tray icon
         self.tray_icon = QSystemTrayIcon(self)
-        tray_icon_path = '/usr/share/icons/hicolor/48x48/apps/eeeel.png' # 3 hours lost for this...
+        tray_icon_path = '/usr/share/icons/hicolor/48x48/apps/eeel.png' # 3 hours lost for this...
         self.tray_icon.setIcon(QIcon(tray_icon_path))
 
         # Add a context menu for the tray icon
@@ -407,7 +407,7 @@ class MainWindow(QMainWindow):
         right_panel = QSplitter(Qt.Vertical)
 
         commands = [
-            ("Install", "slpkg -i {input}'", False),
+            ("Install", "slpkg -i {input}", False),
             ("Reinstall", "slpkg -ir {input}", False),
             ("Build (no install)", "slpkg -b {input}", False),
             ("Download (no build)", "slpkg -d {input}", False),
