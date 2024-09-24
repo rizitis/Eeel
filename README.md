@@ -8,7 +8,7 @@ I wrote eeel for personal use, because I m slpkg and  Slackware-current fan and 
 ![Electric eel](./Electric-eel.png)
 
 ### Install
-You can find a SlackBuild [here]()
+You can find a SlackBuild [here](https://github.com/rizitis/One4All_SlackBuild/tree/main/eeel)
 
 ### Setup
 By default app is ready and foccuss for Slackware-stable and [SlackBuilds.org](https://github.com/SlackBuildsOrg/slackbuilds.git).<br>
