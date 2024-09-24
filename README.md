@@ -3,7 +3,7 @@
 # Electric eel
 *Electric eel is a PyQt5  [slpkg](https://dslackw.gitlab.io/slpkg) plugin. We can name it as slpkg-gui...but thats not true.*<br>
 *Reason for using eeel is beacuse make it easy to `edit/build/patch/install...` SlackBuilds from [SlackBuilds.org](https://github.com/SlackBuildsOrg/slackbuilds.git) or [ponce](https://github.com/Ponce/slackbuilds) repositories in case that needed.*<br>
-I wrote eeel for personal use, because I m slpkg and  Slackware-current fan and current`s SlackBuilds need a small hack  for  often ...
+I wrote eeel for personal use, because I m slpkg and  Slackware-current fan and current`s SlackBuilds need a small hack often ...
 
 ![Electric eel](./Electric-eel.png)
 
