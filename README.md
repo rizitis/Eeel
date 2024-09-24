@@ -44,7 +44,9 @@ ___/ / / /_/ / /__/ ,<  | |/ |/ / /_/ / /  /  __/
 
 ```
 <p>
+  
 Slackware™ is a [trademark](http://www.slackware.com/trademark/trademark.php) of Patrick Volkerding.
+  
 </p>
 
 ```
