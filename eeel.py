@@ -434,7 +434,7 @@ def main():
     app = QApplication(sys.argv)
 
      # Set the global application icon
-    app.setWindowIcon(QIcon('/usr/share/icons/hicolor/48x48/apps/eeeel.png'))
+    app.setWindowIcon(QIcon('/usr/share/icons/hicolor/48x48/apps/eeel.png'))
 
 
     # Get the environment variable, defaulting to 'sbo'
