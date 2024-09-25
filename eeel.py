@@ -338,7 +338,7 @@ class AdditionalSection(QWidget):
             layout.addWidget(button)
 
         example_image = QLabel()
-        example_pixmap = QPixmap("/usr/share/pixmaps/eeel/icons/electric-eeel.png")
+        example_pixmap = QPixmap("/usr/share/pixmaps/eeel/icons/eel-fish.png")
         example_image.setPixmap(example_pixmap.scaled(100, 100, Qt.KeepAspectRatio))
         example_image.setAlignment(Qt.AlignCenter)
         layout.addWidget(example_image)
