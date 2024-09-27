@@ -407,6 +407,7 @@ class MainWindow(QMainWindow):
         right_panel = QSplitter(Qt.Vertical)
 
         commands = [
+            ("SlackBuild info", "slpkg -w {input}", False),
             ("Install", "slpkg -i {input}", False),
             ("Reinstall", "slpkg -ir {input}", False),
             ("Build (no install)", "slpkg -b {input}", False),
